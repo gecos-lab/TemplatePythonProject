@@ -1,4 +1,11 @@
-from test_python_project.functions import sum, subtract, multiply, divide, load_brep
+from src.test_python_project.functions import (
+    sum,
+    subtract,
+    multiply,
+    divide,
+    string_upper,
+    load_brep,
+)
 
 
 def test_sum():
@@ -19,6 +26,11 @@ def test_multiply():
 def test_divide():
     assert divide(10, 2) == 5
     assert divide(3, 3) == 1
+
+
+def test_string_upper():
+    assert string_upper() == "HELLO WORLD"
+    assert string_upper("Hi") == "HI"
 
 
 def test_load_brep():
