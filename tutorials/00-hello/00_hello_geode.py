@@ -1,9 +1,4 @@
 import opengeode as og
-import opengeode_geosciences as ogg
-import geode_numerics
-import geode_implicit
-import geode_explicit
-import geode_simplex
 
 print("Hello Geode world!")
 
