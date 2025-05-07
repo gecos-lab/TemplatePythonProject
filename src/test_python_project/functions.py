@@ -30,6 +30,5 @@ def string_upper(string="Hello world"):
     return string_upper
 
 
-def load_brep(filename):
-    path = os.path.join(os.path.dirname(__file__), filename)
+def load_brep(path):
     return opengeode.load_brep(path)
