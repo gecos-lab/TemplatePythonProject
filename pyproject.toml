@@ -23,6 +23,9 @@ classifiers = [
 "Homepage" = "https://github.com/Geode-solutions/2025MilanoBicocca"
 "Bug Tracker" = "https://github.com/Geode-solutions/2025MilanoBicocca/issues"
 
+[project.scripts]
+string_upper = "test_python_project.functions:string_upper"
+
 [tool.setuptools.dynamic]
 dependencies = {file = ["requirements.txt"]}
 

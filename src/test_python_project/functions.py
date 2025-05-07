@@ -24,6 +24,12 @@ def divide(a, b):
     return a / b
 
 
+def string_upper(string="Hello world"):
+    string_upper = string.upper()
+    print(string_upper, flush=True)
+    return string_upper
+
+
 def load_brep(filename):
     path = os.path.join(os.path.dirname(__file__), filename)
     return opengeode.load_brep(path)
