@@ -1,0 +1,6 @@
+OpenGeode-IO
+OpenGeode-GeosciencesIO
+Geode-Simplex
+Geode-Implicit
+Geode-Explicit
+ipykernel
