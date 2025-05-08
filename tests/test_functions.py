@@ -38,4 +38,4 @@ def test_string_upper():
 
 def test_load_brep():
     data_path = os.path.join(os.path.dirname(__file__),"data","cube.og_brep")
-    assert load_brep("cube.og_brep")
+    assert load_brep(data_path)
