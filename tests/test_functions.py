@@ -7,6 +7,7 @@ from src.test_python_project.functions import (
     load_brep,
 )
 import os
+import pytest
 
 #@pytest.mark.skip(reason="Skipping this test for now because ...") 
 @pytest.mark.slow
