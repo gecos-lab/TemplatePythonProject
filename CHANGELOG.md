@@ -1,6 +1,14 @@
 # CHANGELOG
 
 
+## v1.0.1 (2025-05-12)
+
+### Bug Fixes
+
+- **Pypi**: Unique project name
+  ([`3a3a650`](https://github.com/Geode-solutions/2025MilanoBicocca/commit/3a3a6500ae8c0661a5c3d85930c4b6a7c9c96b77))
+
+
 ## v1.0.0 (2025-05-12)
 
 ### Features
