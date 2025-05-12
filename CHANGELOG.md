@@ -1,6 +1,20 @@
 # CHANGELOG
 
 
+## v1.0.0 (2025-05-12)
+
+### Features
+
+- **Name**: Upgrade project name
+  ([`2753089`](https://github.com/Geode-solutions/2025MilanoBicocca/commit/2753089df845d8d6444093b297f4ae794af8706e))
+
+BREAKING CHANGE: project was renamed
+
+### Breaking Changes
+
+- **Name**: Project was renamed
+
+
 ## v0.2.0 (2025-05-08)
 
 ### Bug Fixes
