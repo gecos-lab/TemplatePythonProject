@@ -1,4 +1,4 @@
-from src.test_python_project.functions import (
+from src.template_python_project.functions import (
     sum,
     subtract,
     multiply,
