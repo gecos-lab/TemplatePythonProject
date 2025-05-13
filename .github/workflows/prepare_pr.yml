@@ -3,7 +3,7 @@ name: Prepare PR
 on:
   pull_request:
     branches:
-      - next
+      - master
 
 jobs:
   prepare:
