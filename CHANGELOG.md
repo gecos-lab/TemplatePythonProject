@@ -1,6 +1,14 @@
 # CHANGELOG
 
 
+## v1.0.1 (2025-05-15)
+
+### Bug Fixes
+
+- **remove dependency**: Removed dependency for open-geode
+  ([`42c6d07`](https://github.com/gecos-lab/TemplatePythonProject/commit/42c6d0728fb00c9dcdff7e859f9d2831523923d5))
+
+
 ## v1.0.0 (2025-05-15)
 
 ### Bug Fixes
