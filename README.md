@@ -1,19 +1,9 @@
-# Milano Bicocca Workshop
+# Template python project
+This folder is a base template for python projects developped by Bicocca.
 
-## Objectives:
-* Discuss best practices for:
-  * software engineering
-  * software development
+## Best practice of code
 
-* Introduce useful toolbox:
-  * automatization
-  * CI/CD
-
-* About pzero:
-  * learn history / Current state / vision
-  * understand actual organization/architecture
-  * provide guidance
-
-* About DFN
-  * introduction to OpenGeode
-  * Discussion … plan development
+## Software engineering toolbox
+The project use:
+* Black for code format
+* Pylint for code analysis (note that the py)
