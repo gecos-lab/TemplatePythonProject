@@ -8,7 +8,8 @@ from src.template_python_project.functions import (
 import os
 import pytest
 
-#@pytest.mark.skip(reason="Skipping this test for now because ...") 
+
+# @pytest.mark.skip(reason="Skipping this test for now because ...")
 @pytest.mark.slow
 def test_sum():
     assert sum(1, 2) == 3
