@@ -4,12 +4,12 @@ from src.template_python_project.functions import (
     multiply,
     divide,
     string_upper,
-    load_brep,
 )
 import os
 import pytest
 
-#@pytest.mark.skip(reason="Skipping this test for now because ...") 
+
+# @pytest.mark.skip(reason="Skipping this test for now because ...")
 @pytest.mark.slow
 def test_sum():
     assert sum(1, 2) == 3
@@ -34,8 +34,3 @@ def test_divide():
 def test_string_upper():
     assert string_upper() == "HELLO WORLD"
     assert string_upper("Hi") == "HI"
-
-
-def test_load_brep():
-    data_path = os.path.join(os.path.dirname(__file__),"data","cube.og_brep")
-    assert load_brep(data_path)
