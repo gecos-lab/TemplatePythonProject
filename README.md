@@ -1,8 +1,8 @@
 # Template python project
-This folder is a base template for python projects developped by Bicocca.
+This folder is a base template for python projects.
 
 ## Best practice of code
-A clean code is easy to read, to understand, and to maintain... Prioritizes clarity over cleverness.
+A clean code is easy to read, to understand, and to maintain... Prioritize clarity over cleverness.
 * Use the single responsibility principle.
 * Use self documenting naming.
 * Avoid code duplication.
